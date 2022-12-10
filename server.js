@@ -40,15 +40,6 @@ app.post('/submitFormToNotion', jsonParser, async (req,res) => {
                             }
                         }
                     ]
-                },
-                "Extra Information": {
-                    rich_text: [
-                        {
-                            text: {
-                                content: extraInfo
-                            }
-                        }
-                    ]
                 }
             }
         })
